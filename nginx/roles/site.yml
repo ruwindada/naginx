@@ -1,6 +1,7 @@
 # filepath: /home/rfernando/Documents/Projects/Ansible/site.yml
 ---
 - hosts: all
+  become: yes
   roles:
     - webserver
 
