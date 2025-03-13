@@ -1,7 +1,6 @@
 ---
 # tasks file for webserver
 - name: Update and upgrade yum
-  become: yes
   ansible.builtin.yum:
     name: '*'
     state: latest
