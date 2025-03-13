@@ -1,4 +1,4 @@
 ---
 # defaults file for webserver
-nginx_version: 1.20.1-9.el9
+nginx_version: nginx.x86_64
 nginx_custom_directory: /var/www/example_domain
